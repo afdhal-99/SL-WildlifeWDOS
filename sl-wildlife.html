@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Sl-wildlife.css" />
+    <script src="sl-wildlife.js" defer></script>
+    <title>Srilankan wildlife</title>
+  </head>
+  <body>
+    <!--Nav bar-->
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <div class="checkbtn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M3 8h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"
+            />
+          </svg>
+        </div>
+      </label>
+      <label class="logo">Wild-Lifery</label>
+      <ul>
+        <li><a href="index.html">Home page</a></li>
+        <li>
+          <a class="active" href="sl-wildlife.html">SriLankan wildlife</a>
+        </li>
+        <li><a href="conservation.html">Wildlife conservation</a></li>
+        <li><a href="lep.html">SriLankan Leopard</a></li>
+        <li>
+          <a href="animalss.html">SriLankan Animals</a>
+          <ul>
+            <li><a href="yala.html">Yala National Park</a></li>
+            <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+          </ul>
+        </li>
+        <button id="loginBtn">Login</button>
+        <button id="logoutBtn" style="display: none">Logout</button>
+        <button id="saveBtn" style="display: none">Save Changes</button>
+      </ul>
+    </nav>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <form id="loginForm">
+          <label for="username">Username:</label><br />
+          <input type="text" id="username" name="username" required /><br />
+          <label for="password">Password:</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+          /><br /><br />
+          <input type="submit" value="Login" />
+        </form>
+      </div>
+    </div>
+    <div class="bgimage">
+      <section>
+        <img src="/images/homeimage.jpg" width="1520px" />
+      </section>
+    </div>
+
+    <section id="sl_wildlife_section_01">
+      <h2 id="sl_wildlife_section_01_header_01"></h2>
+      <div class="hr">
+        <hr />
+      </div>
+      <div class="section3">
+        <div class="section4">
+          <p id="sl_wildlife_section_01_para_01"></p>
+        </div>
+        <div class="elephant2">
+          <img id="elephant2" src="/images/elephant1.avif" alt="Elephant" />
+        </div>
+      </div>
+    </section>
+
+    <section id="sl_wildlife_section_02">
+      <h2 id="sl_wildlife_section_02_header_01"></h2>
+      <div class="hr">
+        <hr />
+      </div>
+      <div id="section1">
+        <div id="text1">
+          <p id="sl_wildlife_section_02_para_01"></p>
+        </div>
+      </div>
+    </section>
+
+    <div id="hika-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7929.7983131956935!2d80.45049939357914!3d6.406990799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1704177432895!5m2!1sen!2slk"
+        width="400"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div class="section2">
+      <h2 id="fact-animal">Fact-Check</h2>
+      <table>
+        <tr>
+          <th>Specifics</th>
+          <th>Height</th>
+          <th>Weight</th>
+          <th>Population</th>
+        </tr>
+        <tr>
+          <td>Purple-faced langur</td>
+          <td>50 to 67.1cm</td>
+          <td>3.1 and 11.4 kg</td>
+          <td>Declining population</td>
+        </tr>
+        <tr>
+          <td>Sri Lanka blue magpie</td>
+          <td>42-47 cm</td>
+          <td>190-200 grams</td>
+          <td>Threatened species</td>
+        </tr>
+        <tr>
+          <td>Green-billed coucal</td>
+          <td>43 cm average</td>
+          <td>Upto 1.7k</td>
+          <td>Declining population</td>
+        </tr>
+        <tr>
+          <td>Ashy-headed babbler</td>
+          <td>Upto 13 cm</td>
+          <td>22-26 grams</td>
+          <td>Threatened species</td>
+        </tr>
+        <tr>
+          <td>White-faced starling</td>
+          <td>22 cm long</td>
+          <td>58-100 grams on average</td>
+          <td>Vulnerable species</td>
+        </tr>
+      </table>
+    </div>
+
+    <footer class="footer">
+      <div class="col1">
+        <h3>ABOUT US</h3>
+        <p>
+          It is our goal to make information about Sri Lankan wildlife easily
+          accessible for any audience.
+        </p>
+      </div>
+      <footer id="references">
+        <!--Unsplash. “Beautiful Free Images & Pictures.” Unsplash, Unsplash, 2022, unsplash.com/.-->
+      </footer>
+    </footer>
+  </body>
+</html>

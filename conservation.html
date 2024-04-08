@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="conservation.js" defer></script>
+    <link rel="stylesheet" href="conservation.css" />
+    <title>Srilankan conservation</title>
+  </head>
+  <body>
+    <!--Nav bar-->
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <div class="checkbtn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M3 8h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"
+            />
+          </svg>
+        </div>
+      </label>
+      <label class="logo">Wild-Lifery</label>
+      <ul>
+        <li><a href="index.html">Home page</a></li>
+        <li><a href="sl-wildlife.html">SriLankan wildlife</a></li>
+        <li>
+          <a class="active" href="conservation.html">Wildlife conservation</a>
+        </li>
+        <li><a href="lep.html">SriLankan Leopard</a></li>
+        <li>
+          <a href="animalss.html">SriLankan Animals</a>
+          <ul>
+            <li><a href="yala.html">Yala National Park</a></li>
+            <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+          </ul>
+          <button id="loginBtn">Login</button>
+          <button id="logoutBtn" style="display: none">Logout</button>
+          <button id="saveBtn" style="display: none">Save Changes</button>
+        </li>
+      </ul>
+    </nav>
+    <div class="bgimage">
+      <section>
+        <img src="/images/homeimage.jpg" width="1520px" />
+      </section>
+    </div>
+
+    <section id="conservation_section_01">
+      <h2 id="conservation_section_01_header_01"></h2>
+      <div class="hr">
+        <hr />
+      </div>
+      <div id="section1">
+        <div id="text1">
+          <p id="conservation_section_01_para_01"></p>
+        </div>
+      </div>
+      <div id="wildlife-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126747.04713271614!2d79.79116999971433!3d6.909103460619881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1704436928575!5m2!1sen!2slk"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <div class="container">
+      <ul class="image-gallery">
+        <li>
+          <img src="protected1.jpg" alt="picture of an elephant" />
+          <div class="overlay"><span>Image title</span></div>
+        </li>
+        <li>
+          <img src="protected2.jpg" alt="picture of an elephant" />
+          <div class="overlay"><span>Image title</span></div>
+        </li>
+        <li>
+          <img src="protected3.jpg" alt="picture of an elephant" />
+          <div class="overlay"><span>Image title</span></div>
+        </li>
+        <li>
+          <img src="protected4.jpg" alt="picture of an elephant" />
+          <div class="overlay"><span>Image title</span></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <div class="col1">
+        <h3>ABOUT US</h3>
+        <p>
+          It is our goal to make information about Sri Lankan wildlife easily
+          accessible for any audience.
+        </p>
+      </div>
+      <footer id="references">
+        <!--Unsplash. “Beautiful Free Images & Pictures.” Unsplash, Unsplash, 2022, unsplash.com/.-->
+      </footer>
+    </div>
+  </body>
+</html>
