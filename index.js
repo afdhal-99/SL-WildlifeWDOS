@@ -113,7 +113,7 @@ function login() {
     const username = prompt("Enter your username:");
     const password = prompt("Enter your password:");
   
-    if (username === "username" && password === "password") {
+    if (username === "user" && password === "user") {
       alert("Login successful!");
       document.getElementById("loginBtn").style.display = "none";
       document.getElementById("logoutBtn").style.display = "inline-block";
