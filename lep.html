@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial scale=1.0" />
     <link rel="stylesheet" href="lep.css" />
+    <script src="lep.js" defer></script>
     <title>Sri-lankan Leopard</title>
   </head>
   <body>
@@ -25,8 +26,9 @@
           </svg>
         </div>
       </label>
-      <label class="logo">Wild-Lifery</label>
+      <label class="logo">Wildlife</label>
       <ul>
+
         <li><a href="index.html">Home page</a></li>
         <li><a href="sl-wildlife.html">SriLankan wildlife</a></li>
         <li><a href="conservation.html">Wildlife conservation</a></li>
@@ -38,6 +40,9 @@
             <li><a href="wilpattu.html">Wilpattu National Park</a></li>
           </ul>
         </li>
+        <button id="loginBtn">Login</button>
+        <button id="logoutBtn" style="display: none">Logout</button>
+        <button id="saveBtn" style="display: none">Save Changes</button>
       </ul>
     </nav>
     <div class="bgimage">
@@ -48,53 +53,44 @@
     <br /><br />
     <br /><br />
 
-    <h2 id="leopard-about">The Sri Lankan Leopard</h2>
-    <br /><br />
-    <div class="hr">
-      <hr />
-    </div>
-    <br /><br />
-    <p>
-      In the lush landscapes of Sri Lanka, the elusive and majestic leopard
-      (Panthera pardus kotiya) holds a prominent place in the island's wildlife
-      tapestry. Renowned for its distinct subspecies, the Sri Lankan leopard
-      thrives in diverse habitats, from dense jungles to open grasslands.
-      National parks like Yala, Wilpattu, and Udawalawe serve as sanctuaries for
-      these sleek felines, offering glimpses of their stealthy pursuits and
-      territorial grace. Despite their nocturnal and solitary nature, these
-      leopards have become prized attractions, drawing wildlife enthusiasts and
-      photographers seeking the rare and captivating sight of these iconic
-      predators in their natural habitat.
-    </p>
+    <section id="lep_section_01">
+      <h2 id="lep_section_01_header_01"></h2>
+      <br /><br />
+      <div class="hr">
+        <hr />
+      </div>
+      <br /><br />
+      <p id="lep_section_01_para_01">
+      </p>
+    </section>
+
     <a
       id="link-01"
       href="https://www.resplendentceylon.com/resplendentjournal/leopard-research-centre-yala/"
     ></a>
     <br /><br />
-    <h1 id="venue">Venues in which the Sri lankan leopards can be found in</h1>
+
+    <section id="lep_section_02">
+      <h1 id="lep_section_02_para_01">Venues in which the Sri lankan leopards can be found in
+      </h1>
+    </section>
+
     <br /><br />
-    <h2 id="yala-about">Yala National Park</h2>
+
+    <section id="lep_section_03">
+      <h2 id="lep_section_03_header_01"></h2>
     <div class="hr">
       <hr />
     </div>
     <div class="section1">
       <div class="section2">
-        <p>
+        <p id="lep_section_03_para_01">
           <br /><br />
-          In the heart of Sri Lanka's Yala National Park, the elusive leopards
-          (Panthera pardus kotiya) command attention as the apex predators of
-          this biodiverse realm. Renowned for having one of the highest leopard
-          densities globally, Yala's leopards navigate the park's varied
-          landscapes—ranging from dense forests to arid plains—with stealth and
-          prowess. The park's Block I and Block II are hotspots for leopard
-          sightings, offering visitors a rare opportunity to witness these
-          magnificent felines in their natural habitat. With a diverse array of
-          prey and a mosaic of ecosystems, Yala National Park stands as a
-          sanctuary, fostering the continued existence of this iconic
-          subspecies.
           <br /><br />
         </p>
       </div>
+    </section>
+
       <div class="yala-2">
         <br /><br />
         <br /><br />
@@ -109,28 +105,20 @@
         ></iframe>
       </div>
     </div>
-    <h2 id="wilpattu-about">Wilpattu National Park</h2>
-    <div class="hr">
-      <hr />
-    </div>
-    <div class="section3">
-      <div class="section4">
-        <p>
-          <br /><br />
-          In the sprawling expanse of Wilpattu National Park in northwestern Sri
-          Lanka, the enigmatic leopards (Panthera pardus kotiya) reign supreme.
-          Within the park's diverse terrain, ranging from dense woodlands to
-          serene villus (natural lakes), these elusive predators find an ideal
-          haven. Wilpattu is renowned for hosting a substantial population of
-          Sri Lankan leopards, offering a unique blend of natural beauty and
-          wildlife. The leopards of Wilpattu navigate through thick foliage,
-          adding an air of mystery to safari excursions. With patient
-          observation, fortunate visitors may witness these agile cats in their
-          silent, territorial prowling, embodying the untamed allure of Sri
-          Lanka's wildest landscapes.
-          <br /><br />
-        </p>
+
+    <section id="lep_section_04">
+      <h2 id="lep_section_04_header_01"></h2>
+      <div class="hr">
+        <hr />
       </div>
+      <div class="section3">
+        <div class="section4">
+          <p id="lep_section_04_para_01">
+            <br /><br />
+            <br /><br />
+          </p>
+        </div>
+    </section>
       <div class="yala-2">
         <br /><br />
         <br /><br />
@@ -146,27 +134,20 @@
       </div>
     </div>
 
-    <h2 id="Udawalawe-about">Udawalawe National Park</h2>
-    <div class="hr">
-      <hr />
-    </div>
-    <div class="section5">
-      <div class="section6">
-        <p>
-          <br /><br />
-          Within the captivating realm of Udawalawe National Park in southern
-          Sri Lanka, the Sri Lankan leopard (Panthera pardus kotiya) stealthily
-          navigates its diverse habitats. Home to a thriving population of these
-          elusive felines, Udawalawe offers a unique setting for leopard
-          encounters amid its grasslands, forests, and the expansive Udawalawe
-          Reservoir. Renowned for its rich biodiversity, the park not only
-          showcases the regal presence of leopards but also provides a backdrop
-          of vibrant ecosystems. As visitors embark on safari adventures through
-          this sanctuary, they may witness the graceful prowess of Udawalawe's
-          leopards, adding a thrilling dimension to the park's allure.
-          <br /><br />
-        </p>
+    <section id="lep_section_05">
+      <h2 id="lep_section_05_header_01"></h2>
+      <div class="hr">
+        <hr />
       </div>
+      <div class="section5">
+        <div class="section6">
+          <p id="lep_section_05_para_01">
+            <br /><br />
+            <br /><br />
+          </p>
+        </div>
+    </section>
+
       <div class="Udawalawe-01">
         <br /><br />
         <br /><br />
@@ -183,66 +164,56 @@
     </div>
     <h1 id="leopard-threat">Threats to leopards</h1>
     <br /><br />
-    <h2 id="threat-01">Habitat Loss and Fragmentation</h2>
+
+    <section id="lep_section_06">
+      <h2 id="lep_section_06_header_01"></h2>
     <div class="hr">
       <hr />
     </div>
     <br /><br />
     <div class="section1">
       <div class="section2">
-        <p>
-          Habitat loss and fragmentation present grave threats to Sri Lanka's
-          leopard population. Rapid urbanization, agricultural expansion, and
-          infrastructure development shrink their natural habitats, isolating
-          leopards into smaller, vulnerable areas. This fragmentation leads to
-          increased inbreeding, limits access to prey, and heightens the risk of
-          human-wildlife conflict. Conservation efforts must prioritize habitat
-          protection, restoration, and corridor creation to ensure the survival
-          and genetic diversity of these elusive felines in the face of
-          relentless habitat degradation.
+        <p id="lep_section_06_para_01">
         </p>
       </div>
+    </section>
+    
       <div class="leopard-01">
         <img src="/images/threat-01.jpg" alt="" />
       </div>
     </div>
     <br /><br />
     <br /><br />
-    <div id="section8">
-      <h3 id="measures-01">Measures taken to reduce the threats.</h3>
-      <div class="hr-01">
-        <hr />
+
+    <section id="lep_section_07">
+      <div id="section8">
+        <h3 id="lep_section_07_header_01"></h3>
+        <div class="hr-01">
+          <hr />
+        </div>
+        <br /><br />
+        <p id="lep_section_07_para_01">
+          Protected Areas and Corridor Creation: <br />
+        </p>
       </div>
-      <br /><br />
-      <p id="measure-001">
-        Protected Areas and Corridor Creation: <br />
-        Establishing and maintaining protected areas helps preserve critical
-        leopard habitats. Creating wildlife corridors between these areas allows
-        leopards to move freely, reducing isolation and promoting genetic
-        diversity.
-      </p>
-    </div>
+    </section>
+    
     <br /><br />
     <br /><br />
-    <h2 id="threat-01">Poaching and Illegal Wildlife Trade</h2>
+    
+    <section id="lep_section_08">
+      <h2 id="lep_section_08_header_01"></h2>
     <div class="hr">
       <hr />
     </div>
     <br /><br />
     <div class="section1">
       <div class="section2">
-        <p>
-          Poaching and illegal wildlife trade pose severe threats to Sri Lanka's
-          leopard population. Driven by demand for skins, bones, and other body
-          parts, this illicit trade disrupts the delicate ecological balance and
-          endangers leopard survival. The criminal activities not only
-          contribute to a decline in leopard numbers but also compromise the
-          overall health of the ecosystem. Combating poaching requires robust
-          enforcement of wildlife protection laws, international collaboration,
-          and community engagement to raise awareness about the critical need
-          for leopard conservation.
+        <p id="lep_section_08_para_01">
         </p>
       </div>
+    </section>
+    
       <div class="leopard-01">
         <img src="/images/threat-02.jpg" alt="" />
       </div>
